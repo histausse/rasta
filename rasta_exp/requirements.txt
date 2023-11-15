@@ -1,0 +1,4 @@
+couchdb
+redis
+more-itertools
+requests

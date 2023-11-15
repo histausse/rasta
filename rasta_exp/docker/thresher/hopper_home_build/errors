@@ -1,0 +1,151 @@
+JarClassLoader: Warning: Null manifest from input stream associated with: lib/libz3java.so
+JarClassLoader: Warning: Null manifest from input stream associated with: lib/javax.inject-1.jar
+JarClassLoader: Warning: Null manifest from input stream associated with: lib/libz3.s
+
+13CC67ECBFF7B04A052F3690E553BE321285B9379D9CF0A9FCB479FD772DF395.apk:
+```
+128   invokevirtual < Application, Lcom/reg/MainRegActivity$2, onClick(Landroid/view/View;)V > v128,v122 @128 exception:v130
+BB127
+
+	at scala.Predef$.assert(Predef.scala:179)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.forkToPredecessorBlocks(UnstructuredSymbolicExecutor.scala:459)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.forkToPredecessorBlocks(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.executeBackwardIntraproceduralWhile(UnstructuredSymbolicExecutor.scala:406)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.executeBackwardIntraproceduralWhile(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.executeBackwardWhileHelper(UnstructuredSymbolicExecutor.scala:776)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.executeBackwardWhileHelper(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.executeBackwardWhile(UnstructuredSymbolicExecutor.scala:759)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.executeBackwardWhile(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.executeBackward(UnstructuredSymbolicExecutor.scala:815)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.executeBackward(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.executeBackward(UnstructuredSymbolicExecutor.scala:803)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.executeBackward(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.client.android.AndroidLeakClient$$anonfun$generateWitness$1.apply(AndroidLeakClient.scala:258)
+	at edu.colorado.hopper.client.android.AndroidLeakClient$$anonfun$generateWitness$1.apply(AndroidLeakClient.scala:247)
+	at scala.collection.LinearSeqOptimized$class.exists(LinearSeqOptimized.scala:80)
+	at scala.collection.immutable.List.exists(List.scala:84)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.generateWitness(AndroidLeakClient.scala:247)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.refuteFieldErrorForward(AndroidLeakClient.scala:184)
+	at edu.colorado.hopper.client.android.AndroidLeakClient$$anonfun$refuteFieldErrors$1.apply(AndroidLeakClient.scala:121)
+	at edu.colorado.hopper.client.android.AndroidLeakClient$$anonfun$refuteFieldErrors$1.apply(AndroidLeakClient.scala:119)
+	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:144)
+	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:144)
+	at scala.collection.mutable.LinkedHashSet.foreach(LinkedHashSet.scala:87)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:144)
+	at scala.collection.AbstractTraversable.foldLeft(Traversable.scala:105)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.refuteFieldErrors(AndroidLeakClient.scala:119)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.check(AndroidLeakClient.scala:81)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.check(AndroidLeakClient.scala:24)
+	at edu.colorado.hopper.driver.Main$.main(Main.scala:72)
+	at edu.colorado.hopper.driver.Main.main(Main.scala)
+	... 6 more
+```
+
+62BDA1D7ABB522DEFE0A82731792D0E3F9DB38969778B837CB1B51782051F46B.apk:
+```
+902   v996 = invokevirtual < Application, Lcom/nd/dianjin/b, onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z > v994,v26,v201 @902 exception:v997
+BB844
+
+	at scala.Predef$.assert(Predef.scala:179)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.forkToPredecessorBlocks(UnstructuredSymbolicExecutor.scala:459)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.forkToPredecessorBlocks(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.executeBackwardIntraproceduralWhile(UnstructuredSymbolicExecutor.scala:406)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.executeBackwardIntraproceduralWhile(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.executeBackwardWhileHelper(UnstructuredSymbolicExecutor.scala:776)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.executeBackwardWhileHelper(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.executeBackwardWhile(UnstructuredSymbolicExecutor.scala:759)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.executeBackwardWhile(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.executeBackward(UnstructuredSymbolicExecutor.scala:815)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.executeBackward(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.executeBackward(UnstructuredSymbolicExecutor.scala:803)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.executeBackward(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.client.android.AndroidLeakClient$$anonfun$generateWitness$1.apply(AndroidLeakClient.scala:258)
+	at edu.colorado.hopper.client.android.AndroidLeakClient$$anonfun$generateWitness$1.apply(AndroidLeakClient.scala:247)
+	at scala.collection.LinearSeqOptimized$class.exists(LinearSeqOptimized.scala:80)
+	at scala.collection.immutable.List.exists(List.scala:84)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.generateWitness(AndroidLeakClient.scala:247)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.refuteFieldErrorForward(AndroidLeakClient.scala:184)
+	at edu.colorado.hopper.client.android.AndroidLeakClient$$anonfun$refuteFieldErrors$1.apply(AndroidLeakClient.scala:121)
+	at edu.colorado.hopper.client.android.AndroidLeakClient$$anonfun$refuteFieldErrors$1.apply(AndroidLeakClient.scala:119)
+	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:144)
+	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:144)
+	at scala.collection.mutable.LinkedHashSet.foreach(LinkedHashSet.scala:87)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:144)
+	at scala.collection.AbstractTraversable.foldLeft(Traversable.scala:105)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.refuteFieldErrors(AndroidLeakClient.scala:119)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.check(AndroidLeakClient.scala:81)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.check(AndroidLeakClient.scala:24)
+	at edu.colorado.hopper.driver.Main$.main(Main.scala:72)
+	at edu.colorado.hopper.driver.Main.main(Main.scala)
+	... 6 more
+```
+
+K9Mail:
+```
+Exception in thread "main" java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.simontuffs.onejar.Boot.run(Boot.java:340)
+	at com.simontuffs.onejar.Boot.main(Boot.java:166)
+Caused by: java.lang.RuntimeException:
+	at scala.sys.package$.error(package.scala:27)
+	at edu.colorado.walautil.Util$.Assert(Util.scala:23)
+	at edu.colorado.walautil.Util$.Assert(Util.scala:22)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.refuteFieldErrorForward(AndroidLeakClient.scala:198)
+	at edu.colorado.hopper.client.android.AndroidLeakClient$$anonfun$refuteFieldErrors$1.apply(AndroidLeakClient.scala:121)
+	at edu.colorado.hopper.client.android.AndroidLeakClient$$anonfun$refuteFieldErrors$1.apply(AndroidLeakClient.scala:119)
+	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:144)
+	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:144)
+	at scala.collection.mutable.LinkedHashSet.foreach(LinkedHashSet.scala:87)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:144)
+	at scala.collection.AbstractTraversable.foldLeft(Traversable.scala:105)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.refuteFieldErrors(AndroidLeakClient.scala:119)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.check(AndroidLeakClient.scala:81)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.check(AndroidLeakClient.scala:24)
+	at edu.colorado.hopper.driver.Main$.main(Main.scala:72)
+	at edu.colorado.hopper.driver.Main.main(Main.scala)
+	... 6 more
+```
+
+
+DroidLife:
+```
+           v343 = phi  v10,v12,v14,v16,v18,v20,v22,v24,v26,v28,v30,v32,v34,v36,v38,v40,v42,v44,v46,v48,v50,v52,v54,v56,v58,v60,v62,v64,v66,v68,v70,v72,v74,v76,v78,v80,v82,v84,v86,v88,v90,v92
+296   invokevirtual < Application, Lorg/jtb/droidlife/CustomDialog$Builder$1, onClick(Landroid/content/DialogInterface;I)V > v341,v343,v344 @296 exception:v345
+BB268
+
+	at scala.Predef$.assert(Predef.scala:179)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.forkToPredecessorBlocks(UnstructuredSymbolicExecutor.scala:459)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.forkToPredecessorBlocks(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.executeBackwardIntraproceduralWhile(UnstructuredSymbolicExecutor.scala:406)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.executeBackwardIntraproceduralWhile(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.executeBackwardWhileHelper(UnstructuredSymbolicExecutor.scala:776)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.executeBackwardWhileHelper(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.executeBackwardWhile(UnstructuredSymbolicExecutor.scala:759)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.executeBackwardWhile(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.executeBackward(UnstructuredSymbolicExecutor.scala:815)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.executeBackward(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.executor.UnstructuredSymbolicExecutor$class.executeBackward(UnstructuredSymbolicExecutor.scala:803)
+	at edu.colorado.hopper.executor.DefaultSymbolicExecutor.executeBackward(UnstructuredSymbolicExecutor.scala:34)
+	at edu.colorado.hopper.client.android.AndroidLeakClient$$anonfun$generateWitness$1.apply(AndroidLeakClient.scala:258)
+	at edu.colorado.hopper.client.android.AndroidLeakClient$$anonfun$generateWitness$1.apply(AndroidLeakClient.scala:247)
+	at scala.collection.LinearSeqOptimized$class.exists(LinearSeqOptimized.scala:80)
+	at scala.collection.immutable.List.exists(List.scala:84)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.generateWitness(AndroidLeakClient.scala:247)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.refuteFieldErrorForward(AndroidLeakClient.scala:184)
+	at edu.colorado.hopper.client.android.AndroidLeakClient$$anonfun$refuteFieldErrors$1.apply(AndroidLeakClient.scala:121)
+	at edu.colorado.hopper.client.android.AndroidLeakClient$$anonfun$refuteFieldErrors$1.apply(AndroidLeakClient.scala:119)
+	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:144)
+	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:144)
+	at scala.collection.mutable.LinkedHashSet.foreach(LinkedHashSet.scala:87)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:144)
+	at scala.collection.AbstractTraversable.foldLeft(Traversable.scala:105)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.refuteFieldErrors(AndroidLeakClient.scala:119)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.check(AndroidLeakClient.scala:81)
+	at edu.colorado.hopper.client.android.AndroidLeakClient.check(AndroidLeakClient.scala:24)
+	at edu.colorado.hopper.driver.Main$.main(Main.scala:72)
+	at edu.colorado.hopper.driver.Main.main(Main.scala)
+	... 6 more
+```

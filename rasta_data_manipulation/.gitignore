@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# virtualenv
+.venv/
+venv/
+
+# mypy
+.mypy_cache/
+
+*.db
+year_and_sdk.csv.gz
+latest_with-added-date.csv.gz
+figs_drebin/
+figs_rasta/
+figs

@@ -1,0 +1,64 @@
+[tool.poetry]
+name = "rasta_triturage"
+version = "0.2.0"
+description = "'Triturage de donnée' for the Rasta Project"
+authors = ["anon"]
+readme = "README.md"
+#homepage = ""
+#repository = ""
+license = "Proprietary"
+
+[tool.poetry.urls]
+#"Bug Tracker" = ""
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.7.1"
+pyqt5 = "^5.15.9"
+numpy = "^1.24.3"
+
+seaborn = "^0.12.2"
+python-slugify = "^8.0.1"
+androguard = "^3.3.5"
+requests = "^2.31.0"
+matplotlib-venn = "^0.11.9"
+python-dateutil = "^2.8.2"
+
+[tool.poetry.scripts]
+rasta-triturage = "rasta_triturage.cli:main"
+rasta-status = "rasta_triturage.cli:show_status_by_tool"
+rasta-collect-apk-info = "rasta_triturage.cli:get_apk_info"
+rasta-success-target-sdk = "rasta_triturage.cli:show_success_rate_by_target_sdk"
+rasta-success-min-sdk = "rasta_triturage.cli:show_success_rate_by_min_sdk"
+rasta-success-year = "rasta_triturage.cli:show_success_rate_by_first_seen_year"
+rasta-success-size = "rasta_triturage.cli:show_success_rate_by_dex_size"
+rasta-success-apk-size = "rasta_triturage.cli:show_success_rate_by_size_decile"
+rasta-timeout-target-sdk = "rasta_triturage.cli:show_timeout_rate_by_target_sdk"
+rasta-timeout-min-sdk = "rasta_triturage.cli:show_timeout_rate_by_min_sdk"
+rasta-timeout-year = "rasta_triturage.cli:show_timeout_rate_by_estimated_year"
+rasta-populate-db-apk = "rasta_triturage.cli:populate_db_apk"
+rasta-populate-db-report = "rasta_triturage.cli:populate_db_exec"
+rasta-populate-db-tool = "rasta_triturage.cli:populate_db_tool"
+rasta-common-errors = "rasta_triturage.cli:show_common_errors"
+rasta-avg-nb-errors = "rasta_triturage.cli:average_nb_errors"
+rasta-error-causes-radar = "rasta_triturage.cli:show_error_cause_radar"
+rasta-error-repartition = "rasta_triturage.cli:show_error_type_repartition"
+rasta-avg-occ-by-exec = "rasta_triturage.cli:show_error_avg_occ_by_exec"
+rasta-ic3-analysis = "rasta_triturage.cli:ic3"
+rasta-avg-ressource = "rasta_triturage.cli:get_avg_ressource_consumption"
+rasta-decorelate-factor = "rasta_triturage.cli:plot_decorelated_factor"
+rasta-count-error-stacks = "rasta_triturage.cli:count_error_stacks"
+rasta-gen-dataset = "rasta_triturage.cli:generate_dataset"
+rasta-size-malware = "rasta_triturage.cli:size_malware"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+pytest-cov = "*"
+types-requests = "^2.31.0.0"
+
+[tool.pytest.ini_options]
+addopts = "--cov"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
