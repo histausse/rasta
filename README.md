@@ -230,7 +230,7 @@ ORDER BY AVG(dex_size);
 
 ## Reusing a Specific Tool
 
-The containers are not on docker hub yet, so they need to be built using:
+If you don't want to use the dockerhub image, you can build them using:
 
 ```
 cd rasta_exp
@@ -261,4 +261,27 @@ E29CCE76464767F97DAE039DBA0A0AAE798DF1763AD02C6B4A45DE81762C23DA.apk  report  st
 The `run.sh` script can be customized to modify the run parameters used for this tool. The script that is copied into the Docker image is located at `rasta_exp/docker/<tool name>/home_build/run.sh`.
 
 
+## Dockerhub images
 
+The docker images are available on dockerhub under the names:
+
+- `histausse/rasta-adagio:icsr2024`
+- `histausse/rasta-amandroid:icsr2024`
+- `histausse/rasta-anadroid:icsr2024`
+- `histausse/rasta-androguard-dad:icsr2024`
+- `histausse/rasta-androguard:icsr2024`
+- `histausse/rasta-apparecium:icsr2024`
+- `histausse/rasta-blueseal:icsr2024`
+- `histausse/rasta-dialdroid:icsr2024`
+- `histausse/rasta-didfail:icsr2024`
+- `histausse/rasta-droidsafe:icsr2024`
+- `histausse/rasta-flowdroid:icsr2024`
+- `histausse/rasta-gator:icsr2024`
+- `histausse/rasta-ic3-fork:icsr2024`
+- `histausse/rasta-ic3:icsr2024`
+- `histausse/rasta-iccta:icsr2024`
+- `histausse/rasta-mallodroid:icsr2024`
+- `histausse/rasta-perfchecker:icsr2024`
+- `histausse/rasta-redexer:icsr2024`
+- `histausse/rasta-saaf:icsr2024`
+- `histausse/rasta-wognsen:icsr2024`
