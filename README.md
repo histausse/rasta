@@ -59,6 +59,14 @@ cd rasta_exp
 cd ..
 ```
 
+The images can also be directly downloaded from the Zenodo archive using:
+
+```
+cd rasta_exp
+./download_sif_images.sh ../data/imgs
+cd ..
+```
+
 (To avoid to rebuild these containers, we will upload them to the Docker hub repository when the paper is published.)
 
 The container and binary of Perfchecker is not provided as the Perfchecker binary is only available on demand.
@@ -281,7 +289,6 @@ The docker images are available on dockerhub under the names:
 - `histausse/rasta-ic3:icsr2024`
 - `histausse/rasta-iccta:icsr2024`
 - `histausse/rasta-mallodroid:icsr2024`
-- `histausse/rasta-perfchecker:icsr2024`
 - `histausse/rasta-redexer:icsr2024`
 - `histausse/rasta-saaf:icsr2024`
 - `histausse/rasta-wognsen:icsr2024`
