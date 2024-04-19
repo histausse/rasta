@@ -2,9 +2,16 @@
 
 Rasta stands for Reproducibility of Android Static Tools and Analysis.
 
-This repository contains the source code for reproducing the experiments of the paper "Evaluating the Re-Usability of Android Static Analysis Tools".  The provided source code enables to rebuild Docker and Singularity images for several static analysis tools of the literature. These Docker provides an interative container to the user for analyzing an APK file. The Singularity image helps to run batch analysis for a dataset of applications on a Singularity cluster. Additionally, the source code contains scripts for extracting the status of each APK analysis (failed/finished) and some characteristics (time, memory) and pushing these values in a database for further statistics.
+This repository contains the source code for reproducing the experiments of the paper "Evaluating the Re-Usability of Android Static Analysis Tools" published in the conference ICSR 2024. 
 
-The input data and pre-computed output data are provided from [outside this repository](https://zenodo.org/records/10137905).
+The provided source code enables to rebuild Docker and Singularity images for several static analysis tools of the literature, but pre-build images can be retrieved directly from the following locations:
+
+- Docker images: https://hub.docker.com/u/histausse (or see full list at the end of this README)
+- Singularity images: https://zenodo.org/records/10980349
+
+The Docker image provides an interative container to the user for analyzing an APK file. The Singularity image helps to run batch analysis for a dataset of applications on a Singularity cluster. Additionally, the source code contains scripts for extracting the status of each APK analysis (failed/finished) and some characteristics (time, memory) and pushing these values in a database for further statistics.
+
+The input data and pre-computed output data are provided from [outside this repository](https://zenodo.org/records/10144014).
 
 ## Data
 
@@ -127,7 +134,6 @@ To re-generate the database from the JSON reports of the previous experiments:
 Generating the database require an androzoo API key and a lot of times because we download the apks to get there total dex size (the value indicated in latest.csv only take into account the size of `classes.dex` and not the sum of the size of all dex file when they are more than one).
 
 ## Database Usage
-
 
 Most of the results presented in the paper can be extracted with:
 
