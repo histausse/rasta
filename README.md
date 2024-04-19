@@ -300,3 +300,9 @@ The docker images are available on dockerhub under the names:
 - `histausse/rasta-redexer:icsr2024`
 - `histausse/rasta-saaf:icsr2024`
 - `histausse/rasta-wognsen:icsr2024`
+
+## LICENSE
+
+This repository is licensed under the GPLv3, please notice that this license do not apply to the tested tools.
+
+Remember, this program is provided "as is" without warranty of any kind.
