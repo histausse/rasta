@@ -6,7 +6,7 @@ This repository contains the source code for reproducing the experiments of the 
 
 The provided source code enables to rebuild Docker and Singularity images for several static analysis tools of the literature, but pre-build images can be retrieved directly from the following locations:
 
-- Docker images: https://hub.docker.com/u/histausse (or see full list at the end of this README)
+- Docker images: https://hub.docker.com/u/histausse (or see full list at [the end of this README](#dockerhub-images))
 - Singularity images: https://zenodo.org/records/10980349
 
 The Docker image provides an interactive container to the user for analyzing an APK file. The Singularity image helps to run batch analysis for a dataset of applications on a Singularity cluster. Additionally, the source code contains scripts for extracting the status of each APK analysis (failed/finished) and some characteristics (time, memory) and pushing these values in a database for further statistics.
