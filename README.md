@@ -252,12 +252,12 @@ cd rasta_exp
 cd ..
 ```
 
-The obtained images are named `rasta-<tool-name>`, and the environment variables associated are in `rasta_exp/envs/<tool-name>_docker.env`. The build_docker_images.sh can be edited to chose only one tool to be built.
+The obtained images are named `histausse/rasta-<tool-name>:icsr2024`, and the environment variables associated are in `rasta_exp/envs/<tool-name>_docker.env`. The build_docker_images.sh can be edited to chose only one tool to be built.
 
 After building a tool, a container can be entered interactively by doing:
 
 ```
-docker run --rm --env-file=rasta_exp/envs/mallodroid_docker.env -v /tmp/mnt:/mnt -it rasta-mallodroid bash
+docker run --rm --env-file=rasta_exp/envs/mallodroid_docker.env -v /tmp/mnt:/mnt -it histausse/rasta-mallodroid:icsr2024 bash
 ```
 
 Here, `/tmp/mnt` is mounted to `/mnt` in the container. Put the `apk` in `/tmp/mnt` to analyze it. 
