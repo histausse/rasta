@@ -32,7 +32,7 @@ To run the Rasta experiment, some tools are required:
 - gzip
 - sqlite3
 
-One way to install those tools is to use Nixpkgs (`nix-shell -p docker singularity python310 python310Packages.numpy python310Packages.matplotlib sqlite3`), another way is to follow the instructions of the different tools (<https://docs.sylabs.io/guides/3.11/user-guide/>, <https://docs.docker.com/>).
+One way to install those tools is to use Nixpkgs (`nix-shell -p docker singularity python310 python310Packages.numpy python310Packages.matplotlib sqlite`), another way is to follow the instructions of the different tools (<https://docs.sylabs.io/guides/3.11/user-guide/>, <https://docs.docker.com/>).
 
 They are also some python dependencies that need to be installed in a virtual env:
 
