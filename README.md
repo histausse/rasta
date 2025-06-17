@@ -34,6 +34,14 @@ To run the Rasta experiment, some tools are required:
 
 One way to install those tools is to use Nixpkgs (`nix-shell -p docker singularity python310 python310Packages.numpy python310Packages.matplotlib sqlite`), another way is to follow the instructions of the different tools (<https://docs.sylabs.io/guides/3.11/user-guide/>, <https://docs.docker.com/>).
 
+> [!WARNING]
+> (One years later, 2025):
+> 
+> Since Ubuntu 23.10, apparmor prevent the creation of unprivileged namespace by default. This means singularity wont work without a specific apparmor profile (wich is not installed by nix-shell).
+>
+> Fortunately, Ubuntu now has a package for singularity: `singularity-container`. Using your distribution package should be the prefered method for installing the tools.
+
+
 They are also some python dependencies that need to be installed in a virtual env:
 
 ```
